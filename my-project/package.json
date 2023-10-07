@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@chartbrew/plugin-strapi": "^0.5.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.39.2",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.43.0",
+    "@opentelemetry/sdk-node": "^0.43.0",
     "@strapi/plugin-i18n": "4.13.6",
     "@strapi/plugin-users-permissions": "4.13.6",
     "@strapi/strapi": "4.13.6",
